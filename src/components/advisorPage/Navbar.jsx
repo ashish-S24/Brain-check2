@@ -17,7 +17,7 @@ const Navbar = () => {
     if(title !== active){
       setActive(title);
       if(title === "Home"){
-        navigate('/Home');
+        navigate('/');
       }
       else if(title === "Brain care"){
         navigate('/Brain care');
